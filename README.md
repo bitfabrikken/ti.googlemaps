@@ -160,7 +160,7 @@ Before you can use the camera update, you must specify one of this actions:
 - [x] `zoom(value, point)` The parameter 'point' is optional
 - [x] `setTarget({latitude: xxx, longitude: xxx, zoom: xxx})` The parameter 'zoom' is optional
 - [x] `setCamera({latitude: xxx, longitude: xxx, zoom: xxx, bearing: xxx, viewingAngle: xxx})`
-- [x] `fitBounds({padding: xxx, insets: xxx, bounds: xxx, coordinate1: xxx, coordinate2: xxx})`
+- [x] `fitBounds({padding: xxx, insets: xxx, bounds: {coordinate1: {latitude: xxx, longitude: xxx}, coordinate2: {latitude: xxx, longitude: xxx}})`
 - [x] `scrollBy({x: xxx, y: xxx})`
 
 After creating the camera update, you can use it in one of the following methods:
